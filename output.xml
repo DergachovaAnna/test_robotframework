@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.0 on darwin)" generated="20221205 00:56:38.564" rpa="false" schemaversion="3">
+<suite id="s1" name="Test Robotframework" source="/Users/Ann/Desktop/test_robotframework">
+<suite id="s1-s1" name="Test Login Rf" source="/Users/Ann/Desktop/test_robotframework/test_login_rf.robot">
+<test id="s1-s1-t1" name="Login to the system" line="10">
+<kw name="Open login page">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${LOGIN URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221205 00:56:38.903" level="INFO">Opening browser 'Chrome' to base url 'https://scouts-test.futbolkolektyw.pl/en'.</msg>
+<status status="PASS" starttime="20221205 00:56:38.902" endtime="20221205 00:56:42.965"/>
+</kw>
+<status status="PASS" starttime="20221205 00:56:38.902" endtime="20221205 00:56:42.966"/>
+</kw>
+<status status="PASS" starttime="20221205 00:56:38.901" endtime="20221205 00:56:42.966"/>
+</test>
+<doc>Suite Description</doc>
+<status status="PASS" starttime="20221205 00:56:38.594" endtime="20221205 00:56:42.969"/>
+</suite>
+<status status="PASS" starttime="20221205 00:56:38.566" endtime="20221205 00:56:42.970"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test Robotframework">Test Robotframework</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Test Login Rf">Test Robotframework.Test Login Rf</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

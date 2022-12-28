@@ -13,6 +13,6 @@ Login to the system
 
 *** Keywords ***
 Open login page
-   Open Browser  $ {LOGIN URL}  $ {BROWSER}
+   Open Browser  ${LOGIN URL}  ${BROWSER}
 
 
